@@ -42,8 +42,8 @@ const App = () => {
           initialRouteName = {'Home'}
         >
           <Stack.Screen name="Home" component={Tabs}/>
-          <Stack.Screen name="restaurent" component={Restaurant}/>
-          <Stack.Screen name="order" component={Order}/>    
+          <Stack.Screen name="Restaurant" component={Restaurant}/>
+          <Stack.Screen name="OrderDelivery" component={Order}/>    
         </Stack.Navigator>
 
     </NavigationContainer>
